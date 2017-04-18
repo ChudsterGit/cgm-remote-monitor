@@ -9,17 +9,17 @@
     },
     "API_SECRET": {
       "description": "REQUIRED: A secret passphrase that must be at least 12 characters long, required to enable POST and PUT; also required for the Care Portal",
-      "value": "",
+      "value": "RemyMalcolm09",
       "required": true
     },
     "DISPLAY_UNITS": {
       "description": "Choices: mg/dl and mmol. Setting to mmol puts the entire server into mmol mode by default, no further settings needed.",
-      "value": "",
+      "value": "mg/dl",
       "required": false
     },
     "ENABLE": {
       "description": "Used to enable optional features, expects a space delimited list, such as: careportal rawbg iob, see https://github.com/nightscout/cgm-remote-monitor/blob/master/README.md for more info",
-      "value": "",
+      "value": "careportal, basal, bwp, iob, cob, cage, sage, iage, azurepush, alexa",
       "required": false
     },
     "DISABLE": {
